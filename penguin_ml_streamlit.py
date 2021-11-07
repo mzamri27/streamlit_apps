@@ -6,7 +6,7 @@ st.write("This app uses 6 inputs to predict the species of penguin using a "
 
 
 st.sidebar.subheader('Descriptions')
-st.sidebar.selectbox('Option', options=['Option 1', 'Option 2'
+st.sidebar.selectbox('Option', options=['Option 1', 'Option 2'])
 
 
 # load pickle files
