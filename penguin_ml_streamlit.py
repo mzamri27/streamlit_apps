@@ -4,9 +4,6 @@ st.title('Penguin Classifier')
 st.write("This app uses 6 inputs to predict the species of penguin using a "
 "model built on the Palmer's Penguin's dataset. Use the form below to get started!")
 
-st.sidebar.subheader('Descriptions')
-st.sidebar.selectbox('Option', options=['Option 1', 'Option 2'])
-
 # load pickle files
 rf_pickle = open('random_forest_penguin.pickle', 'rb')
 map_pickle = open('output_penguin.pickle', 'rb')
